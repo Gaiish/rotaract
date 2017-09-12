@@ -14,6 +14,9 @@ export default class Nav extends Component{
               <a href="#">BROWSE EVENTS</a>
             </li>
             <li>
+              <a href="#">ABOUT</a>
+            </li>
+            <li>
               <a href="#">SIGN IN</a>
             </li>
             <li>

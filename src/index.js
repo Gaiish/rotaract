@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {render} from 'react-dom';
 
 import Nav from '../components/navbar';
+import Mimg from '../components/mainimg';
+import SearchBar from '../components/searchBar';
 
 class App extends Component{
   constructor(props){
@@ -10,8 +12,10 @@ class App extends Component{
 
   render(){
     return (
-      <div>
+      <div className="body">
         <Nav />
+        <Mimg />
+        <SearchBar />
       </div>
     )
   }
