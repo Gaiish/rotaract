@@ -4,6 +4,7 @@ import {render} from 'react-dom';
 import Nav from '../components/navbar';
 import Mimg from '../components/mainimg';
 import SearchBar from '../components/searchBar';
+import UpComEv from '../components/upcoming_events';
 
 class App extends Component{
   constructor(props){
@@ -16,6 +17,7 @@ class App extends Component{
         <Nav />
         <Mimg />
         <SearchBar />
+        <UpComEv />
       </div>
     )
   }

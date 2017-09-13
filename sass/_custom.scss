@@ -14,5 +14,12 @@
   left: 10%;
   form{
     padding-left: 20%;
+    .btn{
+      border-radius: 0;
+    }
   }
+}
+#UpComEv{
+  position: absolute;
+  padding-top: 50px;
 }
