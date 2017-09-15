@@ -23,3 +23,19 @@
   position: absolute;
   padding-top: 50px;
 }
+#cat{
+  position: absolute;
+  padding-top: 80%;
+  .col-md-6{
+    background: url(/img/rotaract-full-img.jpg);
+    height: 200px;
+    width: 500px;
+    margin: 10px;
+    p{
+      color: #fff;
+      font-weight: bold;
+      font-size: 34px;
+  
+    }
+  }
+}

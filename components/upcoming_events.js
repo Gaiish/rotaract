@@ -8,6 +8,17 @@ export default class UpComEv extends Component{
         <div clasName="row">
           <h1 className="text-center">Up comming Events and Meetings in <b>Kampala</b></h1>
           <UpEv />
+          <UpEv />
+          <UpEv />
+          <UpEv />
+          <UpEv />
+          <UpEv />
+          <UpEv />
+          <UpEv />
+          <UpEv />
+          <UpEv />
+          <UpEv />
+          <UpEv />
         </div>
       </div>
     )

@@ -5,6 +5,7 @@ import Nav from '../components/navbar';
 import Mimg from '../components/mainimg';
 import SearchBar from '../components/searchBar';
 import UpComEv from '../components/upcoming_events';
+import Cat from '../components/category';
 
 class App extends Component{
   constructor(props){
@@ -18,6 +19,7 @@ class App extends Component{
         <Mimg />
         <SearchBar />
         <UpComEv />
+        <Cat />
       </div>
     )
   }
